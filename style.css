@@ -1,0 +1,176 @@
+/* triangle quiz */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: sans-serif;
+  color: #363636;
+}
+
+ul li:before {
+  content: "• ";
+}
+.has-text-centered {
+  text-align: center;
+}
+.is-active {
+  color: red;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.container-quiz {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.nav-list {
+  margin-left: 10px;
+  display: inline;
+  font-size: 1.3rem;
+}
+.nav {
+  color: #485fc7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(71, 64, 64);
+}
+.question {
+  font-family: "Yaldevi", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  color: #4a4a4a;
+}
+.quiz {
+  background-color: #ebebeb6c;
+  padding-bottom: 50px;
+}
+p {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.radio {
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+.score_h1 {
+  font-size: 2.5rem;
+  background-color: #ebfffc;
+  color: #48c78e;
+}
+.score_button {
+  padding: 15px;
+  border-radius: 7px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  background-color: #485fc7;
+  color: ivory;
+}
+.score_button:hover {
+  background-color: #2a48ce;
+}
+
+@media only screen and (max-width: 900px) {
+  .container-quiz {
+    margin: 0px;
+  }
+}
+
+/* Angle of triangle */
+.title {
+  font-size: 2.5rem;
+}
+.subtitle {
+  padding-top: 3px;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+.headings {
+  margin-top: 30px;
+}
+.input-angle {
+  display: block;
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.input {
+  border: 1px solid #485fc7;
+  border-radius: 50px;
+  padding: 15px;
+}
+.input-angle-div {
+  margin-top: 50px;
+}
+.buttons {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  padding: 12px 22px;
+  font-size: 1.2rem;
+  background-color: #485fc7;
+  color: #ebfffc;
+  border-radius: 50px;
+  text-align: center;
+}
+.button-div {
+  text-align: center;
+}
+.final_score-triangle {
+  margin-top: 50px;
+}
+.has-background-primary-light {
+  font-weight: lighter;
+  font-size: 2.3rem;
+  background-color: #ebfffc;
+  color: #48c78e;
+}
+.has-background-danger-light {
+  font-weight: lighter;
+  font-size: 2.3rem;
+  background-color: #feecf0;
+  color: #cc0f35;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: grey;
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: grey;
+  opacity: 0.5;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 3px;
+  }
+
+  .makingFlex {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list {
+    padding: 2px;
+  }
+}
