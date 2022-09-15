@@ -151,6 +151,66 @@ function ourQuizfunction() {
       },
       correctAnswer: "a",
     },
+    {
+      // 6666666666666666666666666
+      question:
+        "Two triangles are similar.  If the ratio of the perimeters is 5 : 3, find the ratio of the corresponding sides.",
+      answers: {
+        a: "20°",
+        b: "10°",
+        c: "30°",
+        d: "40°",
+      },
+      correctAnswer: "d",
+    },
+    {
+      // 777777777777777777777
+      question:
+        "One of the angle of the right-angled triangle is double the other. Find the area of the triangle if the hypotenuse is 16 cm.",
+      answers: {
+        a: "30√3",
+        b: "32",
+        c: "40√2",
+        d: "32√3",
+      },
+      correctAnswer: "d",
+    },
+    {
+      // 88888888888888
+      question:
+        "The perimeter of an isosceles triangle is 50 cm. If the base is 18 cm, then find the length of the equal sides.",
+      answers: {
+        a: "18 cms",
+        b: "20 cms",
+        c: "16 cms",
+        d: "12 cms",
+      },
+      correctAnswer: "c",
+    },
+    {
+      // 99999999999999999999
+      question:
+        "In an isosceles triangle ABC, if AB = AC = 26 cm and BC = 20 cm, find the area of triangle ABC. ",
+      answers: {
+        a: "180 cm",
+        b: "240 cm",
+        c: "220 cm",
+        d: "260 cm",
+      },
+      correctAnswer: "b",
+    },
+    {
+      // 101010
+      question:
+        "The area of ΔABC is 63 sq. units. Two parallel lines DE, FG, are drawn such that they divide the line segments AB and AC into three equal parts. What is the area of the quadrilateral DEGF?",
+      answers: {
+        a: "28 sq. units",
+        b: "35 sq. units",
+        c: "21 sq. units",
+        d: "48 sq. units",
+      },
+      correctAnswer: "c",
+    },
   ];
   let marks = 0;
 
